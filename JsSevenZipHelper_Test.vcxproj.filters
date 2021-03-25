@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="JsSevenZipHelper">
+      <UniqueIdentifier>{48cd1db7-2a99-4b85-9a66-4947e6dbcecf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsCPPUtils">
+      <UniqueIdentifier>{d37a25f2-73e3-4fff-933e-ca589808dd25}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JsCPPUtils\FileInfo.cpp">
+      <Filter>JsCPPUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="JsCPPUtils\WinLibrary.cpp">
+      <Filter>JsCPPUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="JsSevenZipHelper\Stream.cpp">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="JsSevenZipHelper\Extract.cpp">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="JsSevenZipHelper\Archive.cpp">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="JsSevenZipHelper\Compress.cpp">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="JsSevenZipHelper\PropVariant.cpp">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="JsCPPUtils\StringEncoding.cpp">
+      <Filter>JsCPPUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="JsCPPUtils\FileMaker.cpp">
+      <Filter>JsCPPUtils</Filter>
+    </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JsSevenZipHelper\JsSevenZipHelper.h">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="JsSevenZipHelper\MyCom.h">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="JsCPPUtils\FileInfo.h">
+      <Filter>JsCPPUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="JsCPPUtils\WinLibrary.h">
+      <Filter>JsCPPUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="JsSevenZipHelper\Stream.h">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="JsSevenZipHelper\Compress.h">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="JsSevenZipHelper\Extract.h">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="JsSevenZipHelper\Archive.h">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="JsSevenZipHelper\Defs.h">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="JsSevenZipHelper\PropVariant.h">
+      <Filter>JsSevenZipHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="JsCPPUtils\StringEncoding.h">
+      <Filter>JsCPPUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="JsCPPUtils\SmartPointer.h">
+      <Filter>JsCPPUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="JsCPPUtils\Common.h">
+      <Filter>JsCPPUtils</Filter>
+    </ClInclude>
+    <ClInclude Include="JsCPPUtils\FileMaker.h">
+      <Filter>JsCPPUtils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
